@@ -1,11 +1,11 @@
-package com.vadimbliashuk.instagramclone
+package com.vadimbliashuk.instagramclone.ui.activities
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.vadimbliashuk.instagramclone.ui.activities.AddPostActivity
+import com.vadimbliashuk.instagramclone.R
 import com.vadimbliashuk.instagramclone.ui.fragments.home.HomeFragment
 import com.vadimbliashuk.instagramclone.ui.fragments.notifications.NotificationsFragment
 import com.vadimbliashuk.instagramclone.ui.fragments.profile.ProfileFragment

@@ -1,7 +1,8 @@
 package com.vadimbliashuk.instagramclone.ui.fragments.home
 
-import androidx.lifecycle.ViewModel
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
 
-class HomeViewModel : ViewModel() {
+class HomeViewModel(application: Application) : AndroidViewModel(application) {
     // TODO: Implement the ViewModel
 }
