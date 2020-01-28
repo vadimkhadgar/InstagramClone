@@ -1,9 +1,9 @@
-package com.vadimbliashuk.instagramclone
+package com.vadimbliashuk.instagramclone.ui.activities
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.vadimbliashuk.instagramclone.ui.activities.SignInActivity
+import com.vadimbliashuk.instagramclone.R
 import kotlinx.android.synthetic.main.activity_sign_up.*
 
 class SignUpActivity : AppCompatActivity() {
