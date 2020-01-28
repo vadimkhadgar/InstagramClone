@@ -30,6 +30,7 @@
                     android:background="#ffffff"
                     android:drawableStart="@drawable/ic_search_black_24dp"
                     android:hint="@string/search"
+                    android:importantForAutofill="no"
                     android:inputType="text"
                     android:paddingStart="8dp"
                     android:paddingEnd="8dp" />
