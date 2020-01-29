@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back_ui"
-    tools:context=".ui.activities.SignUpActivity">
+    tools:context=".ui.yyy_activities.sign_up_activity.SignUpActivity">
 
 
     <ImageView
@@ -56,14 +56,14 @@
         android:importantForAutofill="no"
         android:inputType="text"
         android:padding="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/et_email_signIn_activity"
+        app:layout_constraintBottom_toTopOf="@+id/et_email_signUp_activity"
         app:layout_constraintEnd_toEndOf="@+id/et_fullName_signUp_activity"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/et_fullName_signUp_activity"
         app:layout_constraintTop_toBottomOf="@+id/et_fullName_signUp_activity" />
 
     <EditText
-        android:id="@+id/et_email_signIn_activity"
+        android:id="@+id/et_email_signUp_activity"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -74,14 +74,14 @@
         android:importantForAutofill="no"
         android:inputType="textEmailAddress"
         android:padding="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/et_password_signIn_activity"
+        app:layout_constraintBottom_toTopOf="@+id/et_password_signUp_activity"
         app:layout_constraintEnd_toEndOf="@+id/et_userName_signUp_activity"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/et_userName_signUp_activity"
         app:layout_constraintTop_toBottomOf="@+id/et_userName_signUp_activity" />
 
     <EditText
-        android:id="@+id/et_password_signIn_activity"
+        android:id="@+id/et_password_signUp_activity"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -93,10 +93,10 @@
         android:inputType="textPassword"
         android:padding="8dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_sign_up_signUp_activity"
-        app:layout_constraintEnd_toEndOf="@+id/et_email_signIn_activity"
+        app:layout_constraintEnd_toEndOf="@+id/et_email_signUp_activity"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/et_email_signIn_activity"
-        app:layout_constraintTop_toBottomOf="@+id/et_email_signIn_activity" />
+        app:layout_constraintStart_toStartOf="@+id/et_email_signUp_activity"
+        app:layout_constraintTop_toBottomOf="@+id/et_email_signUp_activity" />
 
     <Button
         android:id="@+id/btn_sign_up_signUp_activity"
@@ -108,10 +108,10 @@
         android:text="@string/sign_up"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/et_password_signIn_activity"
+        app:layout_constraintEnd_toEndOf="@+id/et_password_signUp_activity"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/et_password_signIn_activity"
-        app:layout_constraintTop_toBottomOf="@+id/et_password_signIn_activity" />
+        app:layout_constraintStart_toStartOf="@+id/et_password_signUp_activity"
+        app:layout_constraintTop_toBottomOf="@+id/et_password_signUp_activity" />
 
     <Button
         android:id="@+id/btn_already_have_account_signUp_activity"

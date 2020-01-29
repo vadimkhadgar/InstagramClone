@@ -1,4 +1,4 @@
-package com.vadimbliashuk.instagramclone.ui.fragments.search
+package com.vadimbliashuk.instagramclone.ui.main_ui.fragments.search
 
 import android.os.Bundle
 import android.view.LayoutInflater

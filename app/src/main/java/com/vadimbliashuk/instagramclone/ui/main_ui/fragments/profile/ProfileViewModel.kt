@@ -1,4 +1,4 @@
-package com.vadimbliashuk.instagramclone.ui.fragments.profile
+package com.vadimbliashuk.instagramclone.ui.main_ui.fragments.profile
 
 import androidx.lifecycle.ViewModel
 

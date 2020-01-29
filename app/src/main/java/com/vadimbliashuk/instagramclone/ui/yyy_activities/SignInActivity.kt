@@ -1,10 +1,12 @@
-package com.vadimbliashuk.instagramclone.ui.activities
+package com.vadimbliashuk.instagramclone.ui.yyy_activities
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.vadimbliashuk.instagramclone.R
+import com.vadimbliashuk.instagramclone.ui.main_ui.activities.MainActivity
+import com.vadimbliashuk.instagramclone.ui.yyy_activities.sign_up_activity.SignUpActivity
 import kotlinx.android.synthetic.main.activity_signin.*
 
 class SignInActivity : AppCompatActivity() {

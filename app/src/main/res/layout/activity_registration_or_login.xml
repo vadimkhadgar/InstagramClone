@@ -3,6 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.main_ui.activities.AddPostActivity">
+    tools:context=".ui.registration_and_login.activity.RegistrationOrLoginActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

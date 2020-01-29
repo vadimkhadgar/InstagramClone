@@ -1,4 +1,4 @@
-package com.vadimbliashuk.instagramclone.ui.activities
+package com.vadimbliashuk.instagramclone.ui.main_ui.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

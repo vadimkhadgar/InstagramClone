@@ -1,4 +1,4 @@
-package com.vadimbliashuk.instagramclone.ui.fragments.notifications
+package com.vadimbliashuk.instagramclone.ui.main_ui.fragments.notifications
 
 import androidx.lifecycle.ViewModel
 
