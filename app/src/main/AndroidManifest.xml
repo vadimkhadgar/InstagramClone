@@ -10,9 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.registration_and_login.activity.RegistrationOrLoginActivity"></activity>
-        <activity android:name=".ui.yyy_activities.sign_up_activity.SignUpActivity" />
-        <activity android:name=".ui.yyy_activities.SignInActivity">
+        <activity
+            android:name=".ui.main_ui.activities.SplashActivity"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -20,6 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.registration_and_login.activity.RegistrationOrLoginActivity" />
+        <activity android:name=".ui.yyy_activities.sign_up_activity.SignUpActivity" />
+        <activity android:name=".ui.yyy_activities.SignInActivity" />
         <activity android:name=".ui.main_ui.activities.ProfileSettingActivity" />
         <activity android:name=".ui.main_ui.activities.AddPostActivity" />
         <activity
