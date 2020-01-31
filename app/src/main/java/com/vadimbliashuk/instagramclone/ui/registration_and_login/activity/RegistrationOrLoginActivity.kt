@@ -9,23 +9,43 @@ import com.vadimbliashuk.instagramclone.ui.registration_and_login.fragments.firs
 
 class RegistrationOrLoginActivity : AppCompatActivity() {
 
+    private var onBackPressedListener: OnBackPressedListener? = null
+
+    interface OnBackPressedListener {
+        fun doBack()
+    }
+
+    fun setOnBackPressedListener(onBackPressedListener: OnBackPressedListener?) {
+        this.onBackPressedListener = onBackPressedListener
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registration_or_login)
 
-        replaceFragment(TwoButtonsFragment())
+        _replaceFragment(TwoButtonsFragment())
     }
 
 
-    private fun replaceFragment(fragment: Fragment) {
+    @Suppress("FunctionName")
+    private fun _replaceFragment(fragment: Fragment) {
         val transaction: FragmentTransaction = supportFragmentManager.beginTransaction()
         transaction.replace(R.id.fragment_container, fragment)
         transaction.addToBackStack(null)
         transaction.commit()
     }
 
+    override fun onDestroy() {
+        onBackPressedListener = null
+        super.onDestroy()
+    }
+
     override fun onBackPressed() {
-        //       super.onBackPressed()
-        finish()
+        if (onBackPressedListener != null) {
+            onBackPressedListener!!.doBack()
+        } else {
+            super.onBackPressed()
+            //finish()
+        }
     }
 }
