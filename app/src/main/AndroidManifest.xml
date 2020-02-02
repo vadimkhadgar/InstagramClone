@@ -20,7 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.registration_and_login.activity.RegistrationOrLoginActivity" />
+        <activity
+            android:name=".ui.registration_and_login.activity.RegistrationOrLoginActivity"
+            android:windowSoftInputMode="adjustResize" />
         <activity android:name=".ui.yyy_activities.sign_up_activity.SignUpActivity" />
         <activity android:name=".ui.yyy_activities.SignInActivity" />
         <activity android:name=".ui.main_ui.activities.ProfileSettingActivity" />
