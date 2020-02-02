@@ -38,7 +38,6 @@ class SignInFragment : Fragment(), RegistrationOrLoginActivity.OnBackPressedList
         (activity as RegistrationOrLoginActivity?)!!.setOnBackPressedListener(this)
 
         viewModel = ViewModelProvider(this).get(SignInViewModel::class.java)
-
         auth = FirebaseAuth.getInstance()
 
         btn_login_signIn_fragment.setOnClickListener {
@@ -75,6 +74,5 @@ class SignInFragment : Fragment(), RegistrationOrLoginActivity.OnBackPressedList
             et_email_signIn_fragment.text.toString(),
             et_password_signIn_fragment.text.toString()
         )
-
     }
 }
