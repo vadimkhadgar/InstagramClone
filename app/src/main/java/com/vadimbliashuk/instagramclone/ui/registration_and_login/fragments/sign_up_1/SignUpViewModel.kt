@@ -1,4 +1,4 @@
-package com.vadimbliashuk.instagramclone.ui.registration_and_login.fragments.sign_up
+package com.vadimbliashuk.instagramclone.ui.registration_and_login.fragments.sign_up_1
 
 import androidx.lifecycle.ViewModel
 

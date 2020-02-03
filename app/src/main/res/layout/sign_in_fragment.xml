@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     android:background="@drawable/back_ui"
     android:fitsSystemWindows="true"
-    tools:context=".ui.registration_and_login.fragments.sign_up.SignUpFragment">
+    tools:context=".ui.registration_and_login.fragments.sign_up_1.SignUpFragment">
 
     <EditText
         android:id="@+id/et_email_signIn_fragment"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/height_size_40"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
@@ -32,7 +32,7 @@
     <EditText
         android:id="@+id/et_password_signIn_fragment"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/height_size_40"
         android:layout_marginTop="16dp"
         android:background="@drawable/round_edit_text"
         android:backgroundTint="#E8E8E8"
@@ -50,7 +50,7 @@
     <Button
         android:id="@+id/btn_login_signIn_fragment"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/height_size_40"
         android:layout_marginTop="16dp"
         android:background="@drawable/round_edit_text"
         android:backgroundTint="@color/colorPrimary"

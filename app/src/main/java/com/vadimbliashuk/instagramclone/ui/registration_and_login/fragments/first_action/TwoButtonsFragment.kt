@@ -7,7 +7,7 @@ import com.vadimbliashuk.instagramclone.R
 import com.vadimbliashuk.instagramclone.extension.replaceFragment
 import com.vadimbliashuk.instagramclone.ui.registration_and_login.activity.RegistrationOrLoginActivity
 import com.vadimbliashuk.instagramclone.ui.registration_and_login.fragments.sign_in.SignInFragment
-import com.vadimbliashuk.instagramclone.ui.registration_and_login.fragments.sign_up.SignUpFragment
+import com.vadimbliashuk.instagramclone.ui.registration_and_login.fragments.sign_up_1.SignUpFragment
 import kotlinx.android.synthetic.main.fragment_two_buttons.*
 
 /**

@@ -1,6 +1,5 @@
-package com.vadimbliashuk.instagramclone.ui.registration_and_login.fragments.sign_up
+package com.vadimbliashuk.instagramclone.ui.registration_and_login.fragments.sign_up_1
 
-import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.util.Patterns
@@ -13,9 +12,9 @@ import androidx.lifecycle.ViewModelProvider
 import com.google.firebase.auth.FirebaseAuth
 import com.vadimbliashuk.instagramclone.R
 import com.vadimbliashuk.instagramclone.extension.replaceFragment
-import com.vadimbliashuk.instagramclone.ui.main_ui.activities.MainActivity
 import com.vadimbliashuk.instagramclone.ui.registration_and_login.activity.RegistrationOrLoginActivity
 import com.vadimbliashuk.instagramclone.ui.registration_and_login.fragments.first_action.TwoButtonsFragment
+import com.vadimbliashuk.instagramclone.ui.registration_and_login.fragments.sign_up_2.SignUp2Fragment
 import kotlinx.android.synthetic.main.sign_up_fragment.*
 
 class SignUpFragment : Fragment(), RegistrationOrLoginActivity.OnBackPressedListener {
@@ -43,8 +42,9 @@ class SignUpFragment : Fragment(), RegistrationOrLoginActivity.OnBackPressedList
         auth = FirebaseAuth.getInstance()
         btn_next_signUp_fragment.setOnClickListener {
             performRegister()
-            startActivity(Intent(context, MainActivity::class.java))
-            activity!!.finish()
+//            startActivity(Intent(context, MainActivity::class.java))
+//            activity!!.finish()
+            replaceFragment(SignUp2Fragment())
         }
     }
 
