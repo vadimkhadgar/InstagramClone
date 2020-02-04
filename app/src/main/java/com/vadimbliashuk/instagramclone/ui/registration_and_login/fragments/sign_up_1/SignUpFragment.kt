@@ -41,9 +41,7 @@ class SignUpFragment : Fragment(), RegistrationOrLoginActivity.OnBackPressedList
         viewModel = ViewModelProvider(this).get(SignUpViewModel::class.java)
         auth = FirebaseAuth.getInstance()
         btn_next_signUp_fragment.setOnClickListener {
-            performRegister()
-//            startActivity(Intent(context, MainActivity::class.java))
-//            activity!!.finish()
+            // performRegister()
             replaceFragment(SignUp2Fragment())
         }
     }
